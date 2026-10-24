@@ -30,7 +30,6 @@ public class GerenciadorResponsavel {
                 return listagemResponsavel;
 
             }
-
         }
 
         return null;
@@ -54,7 +53,7 @@ public class GerenciadorResponsavel {
 
             if (listagem.getIdResponsavel() == idResponsavel) {
 
-                listaResponsavel.remove(listagem.getIdResponsavel());
+                listaResponsavel.remove(listagem);
                 return "Responsável excluido com sucesso";
 
             }
