@@ -58,7 +58,7 @@ public class GerenciadorTarefa {
 
             if (listagem.getIdTarefa() == idTarefa) {
 
-                removerTarefaId(idTarefa);
+                listaTarefas.remove(listagem);
                 return "Tarefa de id %d removida com sucesso!".formatted(idTarefa);
 
             }

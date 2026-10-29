@@ -11,6 +11,7 @@ public class Tarefa {
     private LocalDate dataTermino;
     private static final DateTimeFormatter FORMATO = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     private String descricao;
+    @SuppressWarnings("unused")
     private String prioridadeTarefa;
     private Responsavel responsavel;
     private static int contadorId = 1;
